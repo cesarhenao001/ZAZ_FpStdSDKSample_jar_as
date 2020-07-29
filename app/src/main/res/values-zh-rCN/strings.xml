@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="hello">Welcome to our SDK !</string>
+    <string name="app_name">ZHIANG Fingerprint SDK </string>
+    <string name="TXT_INIT_DEVICE">打开设备</string>
+    <string name="TXT_UNINIT_DEVICE">关闭设备</string>
+    <string name="TXT_CAPTURE_IMAGE">获取图像</string>
+    <string name="TXT_CALIBRATION">校准</string>
+    <string name="TXT_GET_IMAGE_QUALITY">图像质量</string>
+    <string name="TXT_GET_NFI_QUALITY">特征质量</string>
+    <string name="TXT_CREATE_ANSI_TEMP">生成特征 ANSI</string>
+    <string name="TXT_CREATE_ISO_TEMP">生成特征 ISO</string>
+    <string name="TXT_COMPARE_TEMPS">特征比对</string>
+    <string name="TXT_ANSI_CHAR">ANSI特征</string>
+    <string name="TXT_ISO_CHAR">ISO特征</string>
+    <string name="TXT_COMPRESS">压缩 WSQ</string>
+    <string name="TXT_UNCOMPRESS">解压WSQ</string>
+    <string name="TXT_IMAGE">Image View</string>
+    <string name="TXT_STOP">Stop</string>
+</resources>
+
+<!-- 
+<resources>
+    <string name="hello">Welcome to our SDK !</string>
+    <string name="app_name">ZHIANG Fingerprint SDK v1.01 for ANSI/ISO Standard</string>
+    <string name="TXT_INIT_DEVICE">InitDevice</string>
+    <string name="TXT_UNINIT_DEVICE">UnInitDevice</string>
+    <string name="TXT_CAPTURE_IMAGE">CaptureImage</string>
+    <string name="TXT_CALIBRATION">Calibration</string>
+    <string name="TXT_GET_IMAGE_QUALITY">ImageQuality</string>
+    <string name="TXT_GET_NFI_QUALITY">NFIQuality</string>
+    <string name="TXT_CREATE_ANSI_TEMP">CreateANSI\nTemplate</string>
+    <string name="TXT_CREATE_ISO_TEMP">CreateISO\nTemplate</string>
+    <string name="TXT_COMPARE_TEMPS">CompareTemplates</string>
+    <string name="TXT_ANSI_CHAR">ANSI\nTemplate</string>
+    <string name="TXT_ISO_CHAR">ISO\nTemplate</string>
+    <string name="TXT_COMPRESS">Compress\nToWSQ</string>
+    <string name="TXT_UNCOMPRESS">UnCompress\nFromWSQ</string>
+    <string name="TXT_IMAGE">Image View</string>
+    <string name="TXT_STOP">Stop</string>
+</resources>
+ -->

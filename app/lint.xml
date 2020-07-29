@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore">
+        <ignore path="src/com/FpSDKSampleP41/FpSDKSampleP41.java" />
+        <ignore path="src/com/FpSDKSample/FpSDKSample.java" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/FpSDKSampleP41/FpSDKSampleP41.java" />
+        <ignore path="src/com/FpSDKSample/FpSDKSample.java" />
+    </issue>
+</lint>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/hello" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout00"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="horizontal" >
+    
+  	    <LinearLayout
+	        android:id="@+id/linearLayout01"
+	        android:layout_width="wrap_content"
+	        android:background="@drawable/bjtp"
+	       
+	        android:layout_height="wrap_content" >
+	
+	        <ImageView
+	            android:id="@+id/ivShowFinger"
+	            android:layout_width="154dp"
+	            android:layout_height="216dp"
+	            android:layout_marginTop="5dp"
+	            android:adjustViewBounds="false"
+	             
+	           
+	            android:contentDescription="@string/TXT_IMAGE" />
+	
+	    </LinearLayout>
+    
+	    <LinearLayout
+	        android:id="@+id/linearLayout02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:orientation="vertical" >
+    
+		    <LinearLayout
+		        android:id="@+id/linearLayout21"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		    
+		    	<Button
+		            android:id="@+id/btnInitDevice"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_INIT_DEVICE" />
+		
+		    	<Button
+		            android:id="@+id/btnUnInitDevice"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_UNINIT_DEVICE" />
+		    	
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:id="@+id/linearLayout22"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		
+		        <Button
+		            android:id="@+id/btnCaptureImage"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/TXT_CAPTURE_IMAGE" />
+		        		        
+		    </LinearLayout>
+		        
+		    <LinearLayout
+		        android:id="@+id/linearLayout23"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		        
+		        <Button
+		            android:id="@+id/btnGetImageQuality"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_GET_IMAGE_QUALITY" />
+		 
+		        <Button
+		            android:id="@+id/btnGetNFIQuality"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_GET_NFI_QUALITY" />
+		
+		        		    
+		    </LinearLayout>
+		        		    		    	        
+		    <LinearLayout
+		        android:id="@+id/linearLayout24"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		    
+		    	<Button
+		            android:id="@+id/btnCreateANSITemp"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_CREATE_ANSI_TEMP" />
+		
+		    	<Button
+		            android:id="@+id/btnCreateISOTemp"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_CREATE_ISO_TEMP" />
+		    	
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/linearLayout25"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		
+		   	   <TextView
+			        android:id="@+id/tvANSITemp"
+		            android:layout_width="0dp"
+		            android:layout_height="60dp"
+		            android:layout_weight="0.5"
+		            android:layout_marginLeft="5dp"
+			        android:background="#ffdddddd"
+			        android:singleLine="false"
+			        android:text="@string/TXT_ANSI_CHAR"
+			        android:textColor="#ff000000" />
+			        	
+			    <TextView
+			        android:id="@+id/tvISOTemp"
+		            android:layout_width="0dp"
+		            android:layout_height="60dp"
+		            android:layout_weight="0.5"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="5dp"
+			        android:background="#ffdddddd"
+			        android:singleLine="false"
+			        android:text="@string/TXT_ISO_CHAR"
+			        android:textColor="#ff000000" />
+		    	
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:id="@+id/linearLayout26"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+			    
+		        <Button
+		            android:id="@+id/btnCompareTemps"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/TXT_COMPARE_TEMPS" />
+		    
+		        		        
+		    </LinearLayout>
+		  		    <!--       		    
+		    <LinearLayout
+		        android:id="@+id/linearLayout27"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+	
+		    	<Button
+		            android:id="@+id/btnCompressWSQ"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_COMPRESS" />
+		    
+		        <Button
+		            android:id="@+id/btnUnCompressWSQ"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.5"
+		            android:text="@string/TXT_UNCOMPRESS" />
+		
+		    </LinearLayout>
+		        -->  		    
+		        		    		    		    
+   		</LinearLayout>
+		    
+   	</LinearLayout>
+   	
+</LinearLayout>
